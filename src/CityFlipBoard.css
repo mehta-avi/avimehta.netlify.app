@@ -1,0 +1,21 @@
+@keyframes rotateAnimation {
+    0% {
+        transform: rotateX(0deg);
+    }
+    20% {
+        transform: rotateX(360deg);
+      }
+    60%{
+        transform:rotateX(360deg);
+      }
+    100% {
+        transform: rotateX(0deg);
+    }
+  }
+  
+.flip-board-item {
+animation-name: rotateAnimation;
+animation-duration: 5s;
+animation-iteration-count: 0.5;
+}
+   
