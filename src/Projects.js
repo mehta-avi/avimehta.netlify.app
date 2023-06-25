@@ -4,42 +4,42 @@ const Projects = () => {
     const projects = [
         {
           title: 'MoodSync',
-          description: 'An emotion-based AI spotify music player',
+          short_description: 'An emotion-based AI spotify music player',
           imageUrl: 'logos/moodsync.jpg',
           projectURL: 'https://github.com/mehta-avi/MoodSync',
         }, 
         {
           title: 'ChefMeUp',
-          description: "A cross-platform app aimed to tackle food-insecurity by finding affordable groceries and recipes based on the user's zip code",
+          short_description: "A cross-platform app aimed to tackle food-insecurity by finding affordable groceries and recipes based on the user's zip code",
           imageUrl: 'logos/ChefMeUp.jpg',
           projectURL: 'https://github.com/Aeonss/ChefMeUp',
         },
         {
           title: 'Manajira',
-          description: 'An agile project management workflow organizer',
+          short_description: 'An agile project management workflow organizer',
           imageUrl: 'logos/manajira.jpg',
           projectURL: 'https://github.com/mehta-avi/projectManager',
         },
         {
           title: 'FindMeParking',
-          description: "An AI-based parking recommender factoring in the user's current location",
+          short_description: "An AI-based parking recommender factoring in the user's current location",
           imageUrl: 'logos/FMP.jpg',
           projectURL: 'https://github.com/avocados23/capstone-spring2023',
         },
         {
           title: 'ShortLR',
-          description: "A URL shortener",
+          short_description: "A URL shortener",
           imageUrl: 'logos/shortlr.jpg',
           projectURL: 'https://github.com/mehta-avi/ShortLR'
         },
         {
           title: 'Custom Memory Manager',
-          description: 'A custom multi-threaded dynamic storage allocator. Code available upon request',
+          short_description: 'A custom multi-threaded dynamic storage allocator. Code available upon request',
           imageUrl: 'logos/malloc.jpg',
         },
         {
           title: 'Unix Shell',
-          description: 'A custom multi-functional unix shell. Code available upon request',
+          short_description: 'A custom multi-functional unix shell. Code available upon request',
           imageUrl: 'logos/cush.jpg',
         },
       ];    
@@ -59,7 +59,7 @@ const Projects = () => {
                         />
                         </a>
                         <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                        <p className="text-sm">{project.description}</p>
+                        <p className="text-sm">{project.short_description}</p>
                         </div>
                     ))}
         </div>

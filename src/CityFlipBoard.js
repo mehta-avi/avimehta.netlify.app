@@ -38,7 +38,7 @@ const cities3 = [
 const CityFlipBoard = () => {
   return (
     <div>
-      <div className="flip-board pt-6">
+      <div className="flip-board pt-24">
       {cities.map((city, index) => (
         <div className="flip-board-item" key={city.name} style={{ animationDelay: `${index * 100}ms` }}>
           <div className="flip-board-content">
