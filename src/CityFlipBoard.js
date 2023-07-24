@@ -36,6 +36,17 @@ const cities3 = [
 ]
 
 const CityFlipBoard = () => {
+
+  // const gray_poly_style = {
+  //   backgroundColor: '#808080',
+  //   clipPath: 'polygon(0 75%, 51% 75%, 91% 100%, 0% 100%)',
+  //   position: 'absolute',
+  //   left: 0,
+  //   top: 0,
+  //   width: '35%', 
+  //   height: '100%', 
+  // };
+  
   return (
     <div>
       <div className="flip-board pt-24">

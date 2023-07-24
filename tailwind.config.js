@@ -4,11 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {
-      // fontFamily: {
-      //   'sans': ['Publica Sans Ultra Light', 'Helvetica', 'Clearview', 'sans-serif'],
-      // },
-    },
+    fontFamily: {
+      'sans': ['sans-serif', 'system-ui', 'poppins'],
+      'serif': ['Cambria', 'serif' , 'Georgia'],
+      'mono': ['Menlo', 'Monaco', 'Consolas', 'SFMono-Regular'],
+    }
   },
   plugins: [],
 }

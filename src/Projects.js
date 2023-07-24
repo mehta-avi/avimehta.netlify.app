@@ -10,7 +10,7 @@ const Projects = () => {
         }, 
         {
           title: 'ChefMeUp',
-          short_description: "A cross-platform app aimed to tackle food-insecurity by finding affordable groceries and recipes based on the user's zip code",
+          short_description: "A mobile app which tackles food-insecurity by finding affordable groceries and recipes based on the user's zip code",
           imageUrl: 'logos/ChefMeUp.jpg',
           projectURL: 'https://github.com/Aeonss/ChefMeUp',
         },
@@ -45,7 +45,7 @@ const Projects = () => {
       ];    
 
     return (
-        <div className="bg-slate-500 text-white ">
+        <div className="bg-slate-50 text-black ">
             <div className='items-start'>
                 <h2 className='text-4xl pt-1'> Projects </h2>
                 <div className="max-w-6xl mx-auto py-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
