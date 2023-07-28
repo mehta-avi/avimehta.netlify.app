@@ -37,49 +37,51 @@ const cities3 = [
 
 const CityFlipBoard = () => {
 
-  // const gray_poly_style = {
-  //   backgroundColor: '#808080',
-  //   clipPath: 'polygon(0 75%, 51% 75%, 91% 100%, 0% 100%)',
-  //   position: 'absolute',
-  //   left: 0,
-  //   top: 0,
-  //   width: '35%', 
-  //   height: '100%', 
-  // };
+  const gray_poly_style = {
+    backgroundColor: '#6C6C6C',
+    clipPath: 'polygon(0 81%, 60% 81%, 81% 100%, 0% 100%)',
+    position: 'absolute',
+    left: 0,
+    top: 0,
+    width: '35%', 
+    height: '100%',
+  };
   
   return (
-    <div>
-      <div className="flip-board pt-24">
-      {cities.map((city, index) => (
-        <div className="flip-board-item" key={city.name} style={{ animationDelay: `${index * 100}ms` }}>
-          <div className="flip-board-content">
-              <span className='font-helvetica'>{city.name}</span>
+    <div className='mt-5 pt-10 '>     
+      <div className="flip-board mt-10 pt-24" style={{position: 'relative', zIndex: 1}}>
+        {cities.map((city, index) => (
+          <div className="flip-board-item" key={city.name} style={{ animationDelay: `${index * 100}ms` }}>
+            <div className="flip-board-content">
+                <span className='font-helvetica'>{city.name}</span>
+            </div>
           </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
 
-    <div className="flip-board pt-0.5">
-      {cities2.map((city, index2) => (
-        <div className="flip-board-item" key={city.name} style={{ animationDelay: `${index2 * 100}ms` }}>
-          <div className="flip-board-content">
-              <span className='font-helvetica'>{city.name}</span>
+      <div className="flip-board pt-0.5" style={{position: 'relative', zIndex: 1}}>
+        {cities2.map((city, index2) => (
+          <div className="flip-board-item" key={city.name} style={{ animationDelay: `${index2 * 100}ms` }}>
+            <div className="flip-board-content">
+                <span className='font-helvetica'>{city.name}</span>
+            </div>
           </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
 
-    <div className="flip-board pt-0.5">
-      {cities3.map((city, index3) => (
-        <div className="flip-board-item" key={city.name} style={{ animationDelay: `${index3 * 100}ms` }}>
-          <div className="flip-board-content">
-              <span className='font-helvetica'>{city.name}</span>
+      <div className="flip-board pt-0.5" style={{position: 'relative', zIndex: 1}}>
+        {cities3.map((city, index3) => (
+          <div className="flip-board-item" key={city.name} style={{ animationDelay: `${index3 * 100}ms` }}>
+            <div className="flip-board-content">
+                <span className='font-helvetica'>{city.name}</span>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
+      
+      <div className='i-right-bg'style={gray_poly_style}></div>      
+
     </div>
-    </div>
-    
   );
 };
 

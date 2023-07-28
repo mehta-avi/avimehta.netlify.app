@@ -30,7 +30,7 @@ const About = () => {
                   It's nice to meet you. I'm passionate about solving real-world problems using computer science and engineering with interests in all things tech, financial technology, startups, and sustainability. I aspire to develop technology that can improve people's lives.
               </p>
             </div>
-            <div className='flex max-w-xs space-x-3 text-black pb-5'>
+            <div className='flex max-w-xs mt-5 space-x-3 text-black pb-10'>
               <a href="https://github.com/mehta-avi" target="_blank" rel="noreferrer">
               <AiOutlineGithub size={42}/>
               </a>
