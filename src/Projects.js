@@ -44,19 +44,19 @@ const Projects = () => {
         },
       ];    
 
-      const circle_poly_style = {
-        backgroundColor: '#339696',
-        clipPath: 'circle(31.6% at 91% 93%)',
-        position: 'absolute',
-        width: '80%', 
-        height: '83.8%',
-        right: 0,
-      };
+      // const circle_poly_style = {
+      //   backgroundColor: '#339696',
+      //   clipPath: 'circle(31.6% at 91% 93%)',
+      //   position: 'absolute',
+      //   width: '80%', 
+      //   height: '83.8%',
+      //   right: 0,
+      // };
 
     return (
         
         <div className="text-black bg-slate-50 ">
-            <div className='i-circle-bg'style={circle_poly_style}></div>      
+            {/* <div className='i-circle-bg'style={circle_poly_style}></div>       */}
             <div className='items-start'>
                 <h2 className='text-4xl pt-1'> Projects </h2>
                 <div className="max-w-6xl mx-auto py-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">

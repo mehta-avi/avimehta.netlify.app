@@ -8,6 +8,7 @@ module.exports = {
       'sans': ['sans-serif', 'system-ui', 'poppins'],
       'serif': ['Cambria', 'serif' , 'Georgia'],
       'mono': ['Menlo', 'Monaco', 'Consolas', 'SFMono-Regular'],
+      'rubik': ['Rubik']
     }
   },
   plugins: [],
