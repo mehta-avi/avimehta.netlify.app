@@ -25,7 +25,7 @@ const About = () => {
             <h2 className="text-4xl font-bold tracking-tight pb-10 text-black sm:text-6xl text-left">Avi Mehta</h2>
             <div className="max-w-2xl">
               <p className="text-black mt-10 pb-10 text-lg text-left">
-                  It's nice to meet you. I'm passionate about solving real-world problems using computer science and engineering with interests in all things tech, financial technology, startups, and sustainability. I aspire to develop technology that can improve people's lives.
+                  It's nice to meet you. I'm a Data Scientist at Truist. I'm passionate about solving real-world problems using computer science and engineering with interests in all things tech, financial technology, startups, and sustainability. I aspire to develop technology that can improve people's lives.
               </p>
             </div>
             <div className='flex max-w-xs mt-5 space-x-3 text-black pb-10'>
@@ -86,11 +86,11 @@ const About = () => {
               <h1 className="text-3xl font-bold text-[#cc6969] pb-5">Experience</h1>
               <p className="text-black font-rubik-300 text-xl pb-3">Here are some of my previous roles:</p>
               <ul className="text-black">
+                <li>BI Engineer at Truist</li>
                 <li>Virginia Tech Instructional Aide Staff</li>
                 <li>Undergraduate Researcher</li>
-                <li>Account Manager at CGVT</li>
-                <li>Technology Consultant at CGVT</li>
                 <li>Software Engineer Intern at Blankly Finance</li>
+                <li>Technology Consultant at CGVT</li>
                 <li>Software Engineer Intern at Brands on Road</li>
               </ul>
             </div>
@@ -100,8 +100,8 @@ const About = () => {
               <ul className="text-black">
                 <li>EDM</li>
                 <li>House</li>
-                <li>Pop</li>
                 <li>Techno</li>
+                <li>Pop</li>
                 <li>International music</li>
                 <li>Jazz</li>
               </ul>
