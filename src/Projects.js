@@ -1,12 +1,14 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Nav from "./Nav";
+
 
 const Projects = () => {
     const projects = [
         {
           title: 'MoodSync',
           short_description: 'An emotion-based AI spotify music player',
-          type: '',
+          type: 'Hackathon',
           projectURL: 'https://github.com/mehta-avi/MoodSync',
         },
         {
@@ -47,13 +49,16 @@ const Projects = () => {
 
 
     return (
-        <section className="max-w-2xl mx-auto py-20 px-4">
+        <section className="flex justify-center">
+          <div className="w-full max-w-2xl py-20 px-4">
+          <Nav />
+          {/*
             <nav className="mb-8 flex space-x-6 text-gray-500 text-base">
                 <Link to="/" className="hover:underline">home</Link>
                 <Link to="/experience" className="hover:underline">experience</Link>
                 <Link to="/projects" className="hover:underline">projects</Link>
-
             </nav>
+            */}
             <h2 className="text-2xl font-bold mb-8">Projects</h2>
             <ul className="space-y-6">
                 {projects.map((project, idx) => (
@@ -67,6 +72,7 @@ const Projects = () => {
                     </li>
                 ))}
             </ul>
+            </div>
         </section>
     );
 };

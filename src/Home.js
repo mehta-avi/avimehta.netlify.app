@@ -2,16 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineLinkedin, AiOutlineGithub, AiOutlineMail} from "react-icons/ai";
 import { RiSpotifyLine } from "react-icons/ri"
+import Nav from "./Nav";
 
 export default function Home() {
   return (
     <section className="flex justify-center">
       <div className="w-full max-w-2xl py-20 px-4">
-        <nav className="mb-8 flex space-x-6 text-gray-500 text-base">
-          <Link to="/" className="hover:underline">home</Link>
-          <Link to="/experience" className="hover:underline">experience</Link>
-          <Link to="/projects" className="hover:underline">projects</Link>
-        </nav>
+        <Nav />
         <div className="flex items-center justify-between mb-4">
           <h1 className="text-4xl font-bold mr-6 whitespace-nowrap">
             Hi, I'm Avi <span role="img" aria-label="wave">👋</span>
