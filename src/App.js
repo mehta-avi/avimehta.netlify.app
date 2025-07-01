@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./Footer";
 import Home from "./Home";
 import Projects from "./Projects";
-import Experience from "./Experience";
 import "./App.css"; // or Tailwind classes
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/experience" element={<Experience />} />
           </Routes>
         </main>
         <Footer />

@@ -25,48 +25,44 @@ const Projects = () => {
         },
         {
           title: 'Manajira',
-          short_description: 'An agile project management workflow organizer',
+          short_description: 'A GraphQL-based agile project management and workflow organizer',
           type: 'Fullstack Development',
           projectURL: 'https://github.com/mehta-avi/projectManager',
         },
         {
           title: 'FindMeParking',
-          short_description: "An AI-based parking recommender factoring in the user's current location",
+          short_description: "An AI-powered parking prediction system using time-series forecasting to recommend optimal parking spots based on the user's current location",
           type: 'Fullstack Development',
           projectURL: 'https://github.com/avocados23/capstone-spring2023',
         },
         {
           title: 'Custom Memory Manager',
-          short_description: 'A custom multi-threaded dynamic storage allocator. Code available upon request',
+          short_description: 'A custom multi-threaded dynamic storage allocator.',
           type: 'Distributed Systems',
+          projectURL: 'https://github.com/mehta-avi/memoryManager',
         },
         {
           title: 'Unix Shell',
-          short_description: 'A custom multi-functional unix shell. Code available upon request',
+          short_description: 'A custom multi-functional unix shell.',
           type: 'Compilers',
+          projectURL: 'https://github.com/mehta-avi/UnixShell',
         },
       ];    
 
 
     return (
-        <section className="flex justify-center">
+        <section className="flex justify-center min-h-screen">
           <div className="w-full max-w-2xl py-20 px-4">
           <Nav />
-          {/*
-            <nav className="mb-8 flex space-x-6 text-gray-500 text-base">
-                <Link to="/" className="hover:underline">home</Link>
-                <Link to="/experience" className="hover:underline">experience</Link>
-                <Link to="/projects" className="hover:underline">projects</Link>
-            </nav>
-            */}
+
             <h2 className="text-2xl font-bold mb-8">Projects</h2>
             <ul className="space-y-6">
                 {projects.map((project, idx) => (
                     <li key={idx} className="border rounded p-4 hover:shadow transition">
-                        <a href={project.projectURL} target="_blank" rel="noopener noreferrer" className="text-lg font-semibold text-blue-600 hover:underline">
+                        <a href={project.projectURL} target="_blank" rel="noopener noreferrer" className="text-lg font-semibold text-black hover:underline">
                             {project.title}
                         </a>
-                        <div className="text-gray-600">{project.type}</div>
+                        <div className="font-mono text-sm text-orange-600 py-1 mb-1 rounded ">{project.type}</div>
                         <div className="text-gray-600">{project.short_description}</div>
 
                     </li>

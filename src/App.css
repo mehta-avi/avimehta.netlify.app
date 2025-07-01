@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+/* Prevent layout shifts during navigation */
+main {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+/* Ensure consistent nav positioning */
+nav {
+  position: relative;
+  z-index: 10;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
