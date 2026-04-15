@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { AiOutlineLinkedin, AiOutlineGithub, AiOutlineMail} from "react-icons/ai";
 import { RiSpotifyLine } from "react-icons/ri"
 import Nav from "./Nav";
@@ -19,6 +18,7 @@ export default function Home() {
           </h1>
           <img
             src="/pylons_pic_1.jpg"
+            alt="Avi Mehta"
             className="w-40 h-40 object-cover border border-gray-200 shadow mr-14"
             style={{ objectPosition: "center top" }}
           />
