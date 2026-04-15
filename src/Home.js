@@ -13,8 +13,9 @@ export default function Home() {
       <div className="w-full max-w-2xl py-20 px-4">
         <Nav />
         <div className="flex items-center justify-between mb-10">
+        {/*<span role="img" aria-label="wave">👋</span>*/}
           <h1 className="text-4xl font-bold mr-6 whitespace-nowrap">
-            Hi, I'm Avi <span role="img" aria-label="wave">👋</span>
+            Hi, I'm Avi
           </h1>
           <img
             src="/pylons_pic_1.jpg"
@@ -27,7 +28,7 @@ export default function Home() {
           and simulations for regulatory requirements<br />
           I studied Computer Science at Virginia Tech<br />
           I'm interested in high-performance computing, AI, finance/fintech, and sustainability<br />
-          Aside from building, I enjoy soccer, tennis, EDM, F1, swimming (in the ocean), and advocating for better urban design policies. I'm also big on languages (I speak five!)<br />
+          Aside from building, I enjoy soccer, tennis, EDM, F1, swimming, and advocating for better urban design policies. I'm also big on languages (I speak five!)<br />
         </p>
         <div className="flex space-x-6 mt-6">
           <a href="https://github.com/mehta-avi" target="_blank" rel="noopener noreferrer"><AiOutlineGithub size={42} /></a>
