@@ -27,7 +27,7 @@ export default function Home() {
           I'm a Data Scientist at Truist, focused on developing and enhancing predictive models
           and simulations for regulatory requirements<br />
           I studied Computer Science at Virginia Tech<br />
-          I'm interested in high-performance computing, AI, finance/fintech, and sustainability<br />
+          I'm interested in AI, finance/fintech, startups and sustainability<br />
           Aside from building, I enjoy soccer, tennis, EDM, F1, swimming, and advocating for better urban design policies. I'm also big on languages (I speak five!)<br />
         </p>
         <div className="flex space-x-6 mt-6">
